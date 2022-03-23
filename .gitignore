@@ -1,3 +1,12 @@
+# ignore everything in ./venv/
+venv/
+
+# vscode
+*.code-workspace
+
+# Windows thumbnails
+Thunbs.db
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -5,6 +14,15 @@ __pycache__/
 
 # C extensions
 *.so
+
+# tarballs
+*.tgz
+*.tar.gz
+*.txz
+*.tar.xz
+
+# python wheel files
+*.whl
 
 # Distribution / packaging
 .Python
